@@ -1,0 +1,20 @@
+{
+    "name": "BANG BANG",
+    "short-name": "BANG BANG",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#000",
+    "lang": "es",
+    "scope": "/",
+    "description": "",
+    "orientation": "landscape-primary",
+    "theme_color": "#000",
+
+    "icons": [
+        {
+            "src": "Pictures/pwa-192x192.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
