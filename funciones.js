@@ -174,10 +174,10 @@ function disparo2(){
     console.log('disparo2');
     document.querySelector('.right').setAttribute('onclick', '');
     document.querySelector('.left').setAttribute('onclick', '');
-    document.querySelector('.p1').style.right = "-800px";
-    document.querySelector('.p2').style.left = "10px";
+    document.querySelector('.p1').style.left = "-800px";
+    document.querySelector('.p2').style.right = "10px";
     setTimeout(function(){
-        document.querySelector('.p2').style.left = "30px";
+        document.querySelector('.p2').style.right = "30px";
     }, 150);
 
     marcador2++;
