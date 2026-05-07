@@ -154,8 +154,8 @@ function disparo1(){
     console.log('disparo1');
     document.querySelector('.right').setAttribute('onclick', '');
     document.querySelector('.left').setAttribute('onclick', '');
-    document.querySelector('.p1').style.right = "-800px";
-    document.querySelector('.p2').style.left = "2000px";
+    document.querySelector('.p1').style.left = "10px";
+    document.querySelector('.p2').style.right = "2000px";
     setTimeout(function(){
         document.querySelector('.p1').style.left = "30px";
     }, 150);
